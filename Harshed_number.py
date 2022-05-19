@@ -1,4 +1,4 @@
-num = int(input())    
+num = int(input())
 rem = sum = 0;    
      
 n = num;    
@@ -10,4 +10,4 @@ while(num > 0):
 if(n%sum == 0):    
     print(True)    
 else:    
-    print(False)   
+    print(False)
