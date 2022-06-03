@@ -1,6 +1,6 @@
-a=input()
-s = a.split()[::-1]
-l = []
-for i in s:
-     l.append(i)
-print(" ".join(l))
+def reverse(string):
+    string = string[::-1]
+    return string
+  
+s = input()
+print(reverse(s))
