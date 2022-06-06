@@ -26,4 +26,3 @@ if (checkAdamNumber(num)) :
     print ("True")
 else :
     print ("False")
- 
