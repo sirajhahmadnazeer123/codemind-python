@@ -1,9 +1,9 @@
+
 num=int(input())
-L=0;
+Largest=0;
 while (num > 0):
-    
-    r=num%10
-    if L<r:
-        L = r
+    reminder=num%10
+    if Largest<reminder:
+        Largest = reminder
     num =int(num / 10)
-print(L)
+print(Largest)
