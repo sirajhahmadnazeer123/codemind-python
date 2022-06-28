@@ -1,8 +1,7 @@
-c=input()
-v="abcdefghijklmnopqrstuvwxyz"
-l=0
-for i in c:
-    if i in v:
-        l+=1
-print(l)
-    
+n=input()
+M="abcdefighjklmnopqrstuvwxyz"
+c=0
+for i in n:
+    if i in M:
+        c+=1
+print(c)
