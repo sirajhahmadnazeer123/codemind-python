@@ -8,4 +8,3 @@ for i in v:
     if i[0] in o and i[-1]:
         m+=1
 print(m)
-        
