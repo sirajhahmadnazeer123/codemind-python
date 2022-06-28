@@ -1,6 +1,6 @@
-i=input()
-count=0
-for j in i:
-    if j.isalpha:
-        count+=1
-print(count)
+n=input()
+c=0
+for i in n:
+    c+=1
+print(c)
+    
