@@ -1,10 +1,11 @@
 n=input()
-v="aeiouAEIOU"
-l=input()
+d=input()
+s=[]
 for i in n:
-    if i==l:
-        print("True")
-        print(n.index(i))
-        break
-else:
+    if i==d:
+        s.append(n.index(i))
+if len(s)==0:
     print("False")
+else:
+    print("True")
+    print(s[0])
