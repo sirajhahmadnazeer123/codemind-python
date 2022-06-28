@@ -1,17 +1,18 @@
-l=int(input())
-u=int(input())
-for x in range(l,u+1):
-    temp=x
-    t=0
-    while temp:
-        r=temp%10
-        temp//=10
+def sel(n):
+    s=0
+    a=n
+    d=len(str(n))
+    while a!=0:
+        r=a%10
+        a=a//10
         if r==0:
-            t=1
-            break
-        elif x%r>0:
-            t=1
-            break
-    if t==0:
-        print(l,end=" ")
-    l+=1
+            continue
+        elif n%r==0:
+            s+=1
+    if(s==d):
+        return n
+a=int(input())
+b=int(input())
+for i in range(a,b+1):
+    if (i==sel(i)):
+        print(i,end=" ")
