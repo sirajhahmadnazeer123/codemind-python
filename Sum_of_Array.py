@@ -1,3 +1,3 @@
 n=int(input())
-c=list(map(int,input().split()))
-print(sum(c))
+s=list(map(int,input().split()))
+print(sum(s))
