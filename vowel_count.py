@@ -1,8 +1,7 @@
 n=input()
 v="aeiouAEIOU"
-count=0
+s=[]
 for i in n:
-    if i in v:
-        count+=1
-print(count)
-        
+    if i  in v:
+        s.append(i)
+print(len(s))
