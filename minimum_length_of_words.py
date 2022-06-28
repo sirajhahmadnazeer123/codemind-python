@@ -1,3 +1,7 @@
-ariana = input()
-grande = min(ariana.split(), key=len)
-print( len(grande))
+n=input()
+s=[]
+for i in n.split():
+    s.append(len(i))
+s.sort()
+print(s[0])
+    
