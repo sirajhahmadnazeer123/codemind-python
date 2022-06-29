@@ -1,9 +1,11 @@
-def passori(s,n):
-    s=s.lower()
-    n=n.lower()
-    sp=s.split(" ")
-    np=n.split(" ")
-    return len(list(set(sp)&set(np)))
 n=input()
-k=input()
-print(passori(n,k))
+p=input()
+o=p.lower()
+j=n.lower()
+
+s=0
+for i in j.split():
+    if i in o.split():
+        s+=1
+print(s)
+    
