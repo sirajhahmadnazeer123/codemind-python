@@ -1,8 +1,6 @@
-c=input()
-l=c.lower()
-d=input()
-o=d.lower()
-if(sorted(l)== sorted(o)):
+n=input()
+f=input()
+if len(sorted(n))==len(sorted(f)):
     print("True")
 else:
     print("False")
