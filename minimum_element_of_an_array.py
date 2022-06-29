@@ -1,5 +1,3 @@
-c=int(input())
-f=list(map(int,input().split()))
-c=f.sort()
-d=f[0]
-print(d)
+n=input()
+l=list(map(int,input().split()))
+print(min(l))
