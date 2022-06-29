@@ -1,5 +1,4 @@
-f=int(input())
-d=list(map(int,input().split()))
-d.sort()
-s=d[-1]
-print(s)
+c=int(input())
+t=0
+f=list(map(int,input().split()))
+print(max(f))
