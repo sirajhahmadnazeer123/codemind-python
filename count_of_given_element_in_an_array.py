@@ -1,11 +1,8 @@
 n=int(input())
-c=list(map(int,input().split()))
-s=int(input())
-l=0
-for i in c:
-    if i==s:
-        l+=1
-if(l>=1):
-    print(l)
-else:
-    print("0")
+l=list(map(int,input().split()))
+o=int(input())
+c=0
+for i in l:
+    if i==o:
+        c+=1
+print(c)
