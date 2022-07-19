@@ -1,12 +1,12 @@
-n=input()
-l=list(map(int,input().split()))
-o=int(input())
-j=[]
-for i in l:
-    if l.count(i)==o:
-        j.append(i)
-if len(j)==0:
+n=int(input())
+x=list(map(int,input().split()))
+c=[]
+q=int(input())
+for i in x:
+    if x.count(i)==q:
+        c.append(i)
+if len(c)==0:
     print("-1")
 else:
-    d=set(j)
-    print(*d)
+    s=set(c)
+    print(*s)
