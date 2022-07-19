@@ -1,13 +1,17 @@
 n=int(input())
-k=[]
-p=list(map(int,input().split()))
-for i in p:
-    if p.count(i)==i:
-        k.append(i)
-if len(k)==0:
-    print("-1")
+x=list(map(int,input().split()))
+c=0
+s=[]
+f=[]
+for i in x:
+    if i not in s:
+        s.append(i)
+for i in s:
+    if x.count(i)==i:
+        f.append(i)
+        c=1
+if(c==1):
+    g=sum(f)/len(f)
+    print("%.2f"%g)
 else:
-    p=set(k)
-    o=list(p)
-    c=sum(p)/len(p)
-    print("%.2f"%c)
+    print('-1')
