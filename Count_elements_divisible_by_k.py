@@ -1,7 +1,7 @@
 a,b=map(int,input().split())
-x=list(map(int,input().split()))
-c=0
-for i in x:
+o=list(map(int,input().split()))
+q=0
+for i in o:
     if i%b==0:
-        c+=1
-print(c)
+        q+=1
+print(q)
