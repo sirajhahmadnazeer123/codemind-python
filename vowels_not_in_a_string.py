@@ -1,12 +1,11 @@
 n=input()
-v="aeiou"
-s=[]
-for i in v:
+d="aeiou"
+p=[]
+for i in d:
     if i not in n:
-        s.append(i)
-if len(s)==0:
+        p.append(i)
+if len(p)==0:
     print("0")
 else:
-    for i in s:
-        print(i,end=" ")
+    print(*p)
     
