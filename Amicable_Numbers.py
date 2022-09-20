@@ -1,16 +1,14 @@
-n=int(input())
-l=int(input())
+c=int(input())
+k=int(input())
 o=[]
-g=[]
-for i in range(1,n):
-    if n%i==0:
+l=[]
+for i in range(1,c):
+    if c%i==0:
         o.append(i)
-for i in range(1,l):
-    if l%i==0:
-        g.append(i)
-t=sum(o)
-p=sum(g)
-if p==n and t==l:
+for i in range(1,k):
+    if k%i==0:
+        l.append(i)
+if(sum(l)==c and sum(o)==k):
     print("Amicable")
 else:
     print("Not Amicable")
